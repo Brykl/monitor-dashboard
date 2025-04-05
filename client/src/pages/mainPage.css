@@ -1,0 +1,29 @@
+
+.text-card {
+    font-size: 10px;
+    color: #596146;
+    text-decoration: underline #596146;
+}
+
+.text-information {
+    font-size: 50px;
+    padding-left: 10px;
+    color: #596146;
+}
+
+.taskCards {
+    width: 33.333%;
+    background-color: #d5c7aa;
+    border-radius: 12px 12px 0 0;
+    /* border: 1.34px solid rgb(245, 241, 241); */
+    border-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #596146;
+}
+
+.taskCards:hover {
+    background-color: #8e9b6d;
+    color: #f8f8f8;
+}
