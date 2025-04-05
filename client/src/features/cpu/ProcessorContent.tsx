@@ -80,7 +80,9 @@ const ProcessorContent = () => {
             <Box sx={{ 
               width: '100%', 
               maxHeight: '400px',  
-              overflow: 'auto'  
+              overflow: 'auto',
+              scrollbarWidth: 'none',
+              msOverflowStyle: 'none', 
             }}>
               {processorChart}
             </Box>
